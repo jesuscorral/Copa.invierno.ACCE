@@ -1790,7 +1790,7 @@ textarea.form-control {
 }
 
 .section-dark-blue {
-  background-color: #506367;
+  background-color: #0c0f0f;
   color: #FFFFFF;
 }
 
@@ -5719,9 +5719,10 @@ textarea.form-control {
 }
 
 .page-header {
-  background-color: #B2AFAB;
+  /* background-color: #B2AFAB; */
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   min-height: 100vh;
   max-height: 999px;
   overflow: hidden;
@@ -5733,7 +5734,7 @@ textarea.form-control {
   justify-content: center;
 }
 .page-header .filter::after {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   content: "";
   display: block;
   height: 100%;
@@ -5748,7 +5749,7 @@ textarea.form-control {
   max-height: 700px;
 }
 .page-header.page-header-xs {
-  min-height: 20vh !important;
+  min-height: 13vh !important;
 }
 .page-header.section-dark .content-center,
 .page-header.section-dark .category-absolute {
