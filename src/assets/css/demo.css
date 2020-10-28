@@ -1,3 +1,6 @@
+strong, b {
+    font-weight: bold;
+}
 .tim-row {
     margin-bottom: 20px;
 }
