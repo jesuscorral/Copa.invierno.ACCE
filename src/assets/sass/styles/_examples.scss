@@ -4,8 +4,7 @@
 .page-header{
     background-color: #B2AFAB;
     background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     max-height: 999px;
     overflow: hidden;
@@ -24,7 +23,7 @@
     -ms-flex-pack: center;
 
     .filter::after{
-        // background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         content: "";
         display: block;
         height: 100%;
@@ -40,7 +39,7 @@
         max-height: 700px;
     }
     &.page-header-xs{
-        min-height: 13vh !important;
+        min-height: 20vh !important;
     }
 
     &.section-dark{
